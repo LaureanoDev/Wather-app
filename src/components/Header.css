@@ -1,0 +1,46 @@
+body{
+    font-size: 16px;
+    margin: 0;
+    background: #fff;
+    background: #000;
+    position: relative;
+}
+
+.hero-section{
+    position: relative;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.hero-section img {
+    width: 100%;
+    max-width: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+    object-fit: cover;
+}
+
+
+
+.text1 {
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 100px;
+    color: #fff;
+    font-weight: 700;
+    text-shadow: 0 0 20px #00457f;
+}
+
+.bottom-shadow {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    background: #fff;
+    height: 100%;
+    box-shadow: 0 0 30px 30px #fff;
+    z-index: 1;
+}
