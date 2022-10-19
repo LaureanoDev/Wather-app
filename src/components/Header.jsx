@@ -1,7 +1,11 @@
 import React from "react";
 import "./Header.css";
 import { useEffect } from "react";
-import SearchBar from "./SearchBar";
+import part0 from '/public/part0.jpg'
+import part1 from '/public/part1.png'
+import part2 from '/public/part2.png'
+import part3 from '/public/part3.png'
+import part4 from '/public/part4.png'
 
 const Header = () => {
   useEffect(() => {
@@ -26,12 +30,12 @@ const Header = () => {
   return (
     <div>
       <div className="hero-section">
-        <img className="part0" src="/public/part0.jpg" />
-        <img className="part1" src="/public/part1.png" />
-        <img className="part2" src="/public/part2.png" />
+        <img className="part0" src={part0} />
+        <img className="part1" src={part1} />
+        <img className="part2" src={part2} />
         <span className="text1">Weather APP</span>
-        <img className="part3" src="/public/part3.png" />
-        <img className="part4" src="/public/part4.png" />
+        <img className="part3" src={part3} />
+        <img className="part4" src={part4} />
         <div className="bottom-shadow"></div>
       </div>
     </div>
